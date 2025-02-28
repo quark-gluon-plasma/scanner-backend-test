@@ -1,12 +1,19 @@
 body{
-  background-color: black;
+  background-color: #404040;
 }
+
+.p{
+  font-size: 30px;
+}
+
 #p1{
   color: red;
 }
+
 #p2{
   color: green;
 }
+
 #p3{
   color: blue;
 }
