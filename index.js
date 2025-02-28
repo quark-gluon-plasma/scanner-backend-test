@@ -1,10 +1,10 @@
 function RGB(){
-  document.getElementbyId("p1").style.color = "red";
-  document.getElementbyId("p2").style.color = "green";
-  document.getElementbyId("p3").style.color = "blue";
+  document.getElementById("p1").style.color = "red";
+  document.getElementById("p2").style.color = "green";
+  document.getElementById("p3").style.color = "blue";
 }
 function CMYK(){
-  document.getElementbyId("p1").style.color = "cyan";
-  document.getElementbyId("p2").style.color = "magenta";
-  document.getElementbyId("p3").style.color = "yellow";
+  document.getElementById("p1").style.color = "cyan";
+  document.getElementById("p2").style.color = "magenta";
+  document.getElementById("p3").style.color = "yellow";
 }
