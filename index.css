@@ -2,8 +2,9 @@ body{
   background-color: #404040;
 }
 
-.p{
+p{
   font-size: 30px;
+  padding: 5px 10px;
 }
 
 #p1{
