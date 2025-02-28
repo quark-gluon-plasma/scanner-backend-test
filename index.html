@@ -4,8 +4,22 @@
     <script src="/index.js"></script>
   </head>
   <body>
-    <p id="p1"></p>
-    <p id="p2"></p>
-    <p id="p3"></p>
+    <p id="p1">Paragraph One</p>
+    <p id="p2">Paragraph Two</p>
+    <p id="p3">Paragraph Three</p>
+    <button id="testButton" onclick="buttonFunction">Colors</button>
   </body>
+  <script>
+    var flipped = false;
+    var testButton = document.getElementById(testButton);
+    function buttonFunction(){
+      if(flipped){
+        CMYK();
+      } else {
+        RGB();
+      }
+      flipped = !flipped;
+    }
+    
+  </script>
 </html>
